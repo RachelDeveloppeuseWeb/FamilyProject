@@ -1,0 +1,86 @@
+
+#bloc_page {
+    width: 900px;
+    margin-left: auto;
+}
+    body
+{
+    background-image: url("image_fondtomate.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center ;
+
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+}
+#conteneur
+{
+    display: flex;
+    justify-content: space-around;
+    
+
+
+
+}
+header {
+    background-color: black;
+    height: 50px;
+    color : white;
+    font-size: large;
+    border-radius: 10px;
+    padding-top: 20px;
+    margin-top: 50px;
+
+}
+
+article {
+    display: flex;
+    margin-top: 200px;
+    position: center;
+    width: 600px;
+    font-size: large;
+    text-align: justify;
+    color: white;
+    padding-right: 10px;
+    
+}
+aside img {
+    
+    width: 250px;
+    position: right;
+    border-radius: 8px;
+    border: black 10px;
+    box-shadow: 5px 5px 1px gray;
+    
+    
+}
+
+aside{
+    margin-top: 200px;
+    margin-left: 100px;
+    
+    
+}
+table {
+    border-collapse: collapse;
+    color: aliceblue;
+    background-color: #181818;
+}
+td, th{
+    border: 2px solid black;
+}
+caption {
+    padding-top: 40px;
+    margin-bottom: 10px;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 300px;
+    border-radius: 10px;
+
+}
+</html>
